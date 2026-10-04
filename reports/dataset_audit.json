@@ -1,0 +1,195 @@
+{
+  "dataset_root": "D:\\BuiGiaHuy\\CN8\\EXE202\\dataset",
+  "directories": {
+    "train": "D:\\BuiGiaHuy\\CN8\\EXE202\\dataset\\train",
+    "public_test": "D:\\BuiGiaHuy\\CN8\\EXE202\\dataset\\public_test",
+    "private_test": "D:\\BuiGiaHuy\\CN8\\EXE202\\dataset\\private_test"
+  },
+  "file_counts": {
+    "train": 3875,
+    "public_test": 1630,
+    "private_test": 2859,
+    "all": 8364
+  },
+  "train_audit": {
+    "total": 3875,
+    "valid": 3875,
+    "invalid": 0,
+    "suspicious": 9,
+    "valid_percentage": 100.0
+  },
+  "fps": {
+    "count": 3875,
+    "min": 0.85,
+    "max": 30.018,
+    "mean": 12.935300387096774,
+    "median": 12.336,
+    "p25": 10.976,
+    "p75": 14.063
+  },
+  "frame_count_metadata": {
+    "count": 3875,
+    "min": 16.0,
+    "max": 30.0,
+    "mean": 29.876129032258063,
+    "median": 30.0,
+    "p25": 30.0,
+    "p75": 30.0
+  },
+  "frame_count_decoded": {
+    "count": 3875,
+    "min": 16.0,
+    "max": 30.0,
+    "mean": 29.876129032258063,
+    "median": 30.0,
+    "p25": 30.0,
+    "p75": 30.0
+  },
+  "duration_seconds": {
+    "count": 3875,
+    "min": 0.7000700070007001,
+    "max": 35.294117647058826,
+    "mean": 2.48116440334508,
+    "median": 2.431906614785992,
+    "p25": 2.13325748417834,
+    "p75": 2.7332361516034984
+  },
+  "width": {
+    "count": 3875,
+    "min": 224.0,
+    "max": 224.0,
+    "mean": 224.0,
+    "median": 224.0,
+    "p25": 224.0,
+    "p75": 224.0
+  },
+  "height": {
+    "count": 3875,
+    "min": 224.0,
+    "max": 224.0,
+    "mean": 224.0,
+    "median": 224.0,
+    "p25": 224.0,
+    "p75": 224.0
+  },
+  "resolution_distribution": {
+    "224x224": 3875
+  },
+  "suspicious_reasons": {
+    "fps_too_low": 9,
+    "duration_too_long": 8
+  },
+  "class_distribution": {
+    "number_of_classes": 100,
+    "minimum": 6,
+    "maximum": 74,
+    "mean": 38.75,
+    "median": 45.5
+  },
+  "storage": {
+    "train_size_bytes": 339141066,
+    "train_size_gb": 0.3158497307449579
+  },
+  "label_mapping": {
+    "exists": true,
+    "path": "D:\\BuiGiaHuy\\CN8\\EXE202\\dataset\\label_mapping.pkl",
+    "type": "dict",
+    "length": 100,
+    "preview": [
+      {
+        "key": "An ủi",
+        "value": "0"
+      },
+      {
+        "key": "Áp dụng",
+        "value": "1"
+      },
+      {
+        "key": "Ăn",
+        "value": "2"
+      },
+      {
+        "key": "Ăn mừng",
+        "value": "3"
+      },
+      {
+        "key": "Ban ngày",
+        "value": "4"
+      },
+      {
+        "key": "Ban đêm",
+        "value": "5"
+      },
+      {
+        "key": "Bàn tay",
+        "value": "6"
+      },
+      {
+        "key": "Băn khoăn",
+        "value": "7"
+      },
+      {
+        "key": "Bạn thân",
+        "value": "8"
+      },
+      {
+        "key": "Bế mạc",
+        "value": "9"
+      },
+      {
+        "key": "Bệnh nhân",
+        "value": "10"
+      },
+      {
+        "key": "Bệnh viện",
+        "value": "11"
+      },
+      {
+        "key": "Biết",
+        "value": "12"
+      },
+      {
+        "key": "Biếu tặng",
+        "value": "13"
+      },
+      {
+        "key": "Bộ y tế",
+        "value": "14"
+      },
+      {
+        "key": "Cá",
+        "value": "15"
+      },
+      {
+        "key": "Cách ly",
+        "value": "16"
+      },
+      {
+        "key": "Cám dỗ",
+        "value": "17"
+      },
+      {
+        "key": "Cần",
+        "value": "18"
+      },
+      {
+        "key": "Cảm ơn",
+        "value": "19"
+      }
+    ],
+    "mapping_direction": "label_to_id",
+    "error": null
+  },
+  "audit_configuration": {
+    "full_frame_decode": true,
+    "calculate_sha256": true,
+    "fps_min_reasonable": 5.0,
+    "fps_max_reasonable": 35.0,
+    "duration_min_reasonable": 0.5,
+    "duration_max_reasonable": 10.0,
+    "frame_count_min_reasonable": 8,
+    "frame_count_max_reasonable": 64,
+    "expected_width": 224,
+    "expected_height": 224
+  }
+}
